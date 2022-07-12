@@ -1,0 +1,21 @@
+@use "./fonts";
+@use "./normalize";
+/*Asosiylari*/
+@import "./parts/header";
+@import "./../images2/";
+@use "./parts/world";
+
+
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Rubik", 'Arial', sans-serif;
+}
+.container{
+  max-width: 1440px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
